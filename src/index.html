@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Visualization of Clustering Concept</title>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat|Noto+Sans:700,400|Open+Sans:700,600,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/lib/requirejs/require.js"></script>
+  <script src="config.js"></script>
+</head>
+
+<body>
+
+  <article id="cluster-infovis" class="project infovis">
+
+    <header>
+      <h1>A Visualization of Clustering Concept</h1>
+    </header>
+    
+    <section class="section-1 introduction">
+      <header>
+        <h2>Introduction</h2>
+      </header>
+      <p>clustering is the task of grouping a set of objects in such a way that objects in the same group (called a cluster) are more similar (in some sense or another) to each other than to those in other groups </p>
+    </section>
+    
+    <section class="section-1 algorithm-explanation">
+      <header>
+        <h2>Algorithm Explanation</h2>
+      </header>
+      <section class="section-2 k-means">
+        <h3>K-Means Clustering</h3>
+        <p>
+        K-means clustering is a centroid-based clustering algorithm. K-means clustering aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean, serving as a prototype of the cluster. This results in a partitioning of the data space into Voronoi cells.
+        </p>
+        
+        <h4>Before going futher, let's go through the <span style="font-weight:700">INSTRUCTION.</span></h4>
+        <ul>
+          <li>Going through the visualization of clustering steps by <span style="font-weight:700">hovering over Step Panel</span></li>
+          <li><span style="font-weight:700">Changing the data input on the right panel</span> to observe clustering result</li>
+          <li><span style="font-weight:700">Changing the parameter setting</span> in the panel below the step panel</li>
+          <li>When the data input or parameter is changed, <span style="font-weight:700">a snapshot will be taken and put underneath</span> for further comparisons</li>
+        </ul>
+
+        <h4>Clustering Steps</h4>
+        <ul class="left">
+          <li class="step-list step-list-0">Prepare a dataset for clustering analysis</li>
+          <li class="step-list step-list-1">Randomly generate K initial "means" (in this case, means are randomly selected from the dataset.)</li>
+          <li class="step-list step-list-2">Associate every observation with the nearest means</li>
+          <li class="step-list step-list-3">The centroid of each of the k clusters becomes the new mean. </li>
+          <li class="step-list step-list-4">The algorithms ends when convergence has been reached.</li>
+        </ul>
+        <figure class="main-figure">
+        </figure>
+        <figure class="extend-figure">
+        </figure>
+      </section>
+    
+    <footer>
+    </footer>
+  
+  </article>
+
+</body>
+
+</html>

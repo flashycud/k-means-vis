@@ -1,0 +1,21 @@
+{
+  "name": "k-means-vis",
+  "version": "1.0.0",
+  "description": "Visualization of clustering concept",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "infovis",
+    "clustering",
+    "flash"
+  ],
+  "author": "Flash",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "connect": "^3.3.4",
+    "serve-static": "^1.9.1"
+  }
+}
